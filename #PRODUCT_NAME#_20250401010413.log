@@ -1,0 +1,31 @@
+[0B4C:0E44][2025-04-01T01:04:13]i001: Burn v3.11.2.4516, Windows v10.0 (Build 20348: Service Pack 0), path: C:\ProgramData\Package Cache\{64044a73-fc58-405e-8727-e868b5bba659}\Debug-Developer.v1.0.0.0.Setup.exe
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'WebSiteAddressProtocol' to value 'http'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'WebSiteAddress' to value '*'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing numeric variable 'WebSitePort' to value '8081'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'ApplicationConnectionString' to value 'CONNECTION_STRING_BUNDLE'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'UserGroups' to value ''
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'AdminGroups' to value ''
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'DefaultConnectionString' to value 'ConnectionStringDefaultValue'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Initializing string variable 'InstallFolder' to value 'C:\Program Files\#COMPANY_NAME#\#PRODUCT_NAME#'
+[0B4C:0E44][2025-04-01T01:04:13]i003: This bundle is being run by a related bundle as type 'Upgrade'.
+[0B4C:0E44][2025-04-01T01:04:13]i009: Command Line: '"-burn.clean.room=C:\ProgramData\Package Cache\{64044a73-fc58-405e-8727-e868b5bba659}\Debug-Developer.v1.0.0.0.Setup.exe" -burn.filehandle.attached=532 -burn.filehandle.self=552 -uninstall -quiet -burn.related.upgrade -burn.ancestors={ab4bca27-bf62-4779-84ec-9d330566f969} -burn.filehandle.self=944 -burn.embedded BurnPipe.{EDA22A2C-F22E-4706-8F1A-FF2A9E4BF84F} {553D7F42-4CC9-4D21-AD73-D6BFA52DDA87} 5428'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Setting string variable 'WixBundleLog' to value 'C:\Users\ADMINI~1\AppData\Local\Temp\#PRODUCT_NAME#_20250401010413.log'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Setting string variable 'WixBundleManufacturer' to value '#COMPANY_NAME#'
+[0B4C:0E44][2025-04-01T01:04:13]i000: Loading managed bootstrapper application.
+[0B4C:0E44][2025-04-01T01:04:13]i000: Creating BA thread to run asynchronously.
+[0B4C:1434][2025-04-01T01:04:14]i000: Setting numeric variable 'quite' to value 0
+[0B4C:1434][2025-04-01T01:04:14]i000: Entry point of WiX - Run method
+[0B4C:1434][2025-04-01T01:04:14]i000: {"DataFile":null,"Data":{"PerMachine":true,"Name":"#PRODUCT_NAME#","Packages":[{"Id":"IISWebAppication","DisplayName":"#PRODUCT_NAME# IIS Web Application","Description":"#PRODUCT_DESCRIPTION#","DisplayInternalUI":false,"ProductCode":null,"UpgradeCode":null,"Version":null}]}}
+[0B4C:0E44][2025-04-01T01:04:14]i100: Detect begin, 1 packages
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: DetectBegin ({"Installed":true,"PackageCount":1,"Result":0})
+[0B4C:0E44][2025-04-01T01:04:14]i102: Detected related bundle: {ab4bca27-bf62-4779-84ec-9d330566f969}, type: Upgrade, scope: PerMachine, version: 8.0.0.0, operation: None
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: DetectRelatedBundle ({"ProductCode":"{ab4bca27-bf62-4779-84ec-9d330566f969}","RelationType":2,"BundleTag":"","PerMachine":true,"Version":{"Major":8,"Minor":0,"Build":0,"Revision":0,"MajorRevision":0,"MinorRevision":0},"Operation":0,"Result":0})
+[0B4C:0E44][2025-04-01T01:04:14]i103: Detected related package: {A40E2F2F-8E2F-420D-80E4-A1D877D8E55E}, scope: PerMachine, version: 8.0.0.0, language: 0 operation: Downgrade
+[0B4C:0E44][2025-04-01T01:04:14]i101: Detected package: IISWebAppication, state: Obsolete, cached: Complete
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: DetectComplete
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: Not quite install
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: _wizardWorkflow was set
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: CurrentPage was set
+[0B4C:0E44][2025-04-01T01:04:14]i000: EVENT: DetectEnd
+[0B4C:0E44][2025-04-01T01:04:14]i199: Detect complete, result: 0x0
+[0B4C:1434][2025-04-01T01:04:14]i000: Setting numeric variable 'quite' to value 1
